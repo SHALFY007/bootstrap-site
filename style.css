@@ -6,10 +6,12 @@
     padding-top: 32px;
     height: 800px;
     background-image: url(img/bgc.jpg);
+    display: flex;
 }
 .header-nav {
     padding-left: 180px;
     display: flex;
+    margin-bottom: 33px;
 }
 .header-image {
     width: 175.27px;
@@ -19,6 +21,7 @@
     padding-left: 311px;
     width: 586px;
     height: 22px;
+    position: sticky;
 }
 .header-ul {
     list-style-type: none;
@@ -38,4 +41,33 @@
     text-align: center;
 
     color: #ffffff;
+}
+.header-search {
+    padding-left: 670px;
+}
+.header-lang {
+    padding-left: 70px;
+}
+#english {
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+    text-align: right;
+
+    color: #ffffff;
+}
+#select {
+    background: none;
+    border: none;
+    font-size: 16px;
+    line-height: 135%;
+    /* identical to box height, or 22px */
+
+    text-align: right;
+
+    color: #ffffff;
+}
+.header-hr {
+    border: 1px solid #ffffff;
 }
