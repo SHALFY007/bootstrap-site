@@ -7,19 +7,23 @@
     height: 800px;
     background-image: url(img/bgc.jpg);
     display: flex;
+    flex-direction: column;
+    max-width: 1980px;
 }
 .header-nav {
     padding-left: 180px;
+    box-sizing: border-box;
     display: flex;
     margin-bottom: 33px;
+    width: 1920px;
 }
 .header-image {
-    width: 175.27px;
+    max-width: 175.27px;
     height: 24px;
 }
 .header-panel {
     padding-left: 311px;
-    width: 586px;
+    max-width: 586px;
     height: 22px;
     position: sticky;
 }
@@ -44,6 +48,7 @@
 }
 .header-search {
     padding-left: 670px;
+    box-sizing: border-box;
 }
 .header-lang {
     padding-left: 70px;
@@ -70,4 +75,35 @@
 }
 .header-hr {
     border: 1px solid #ffffff;
+}
+.header-text {
+    display: flex;
+    flex-direction: column;
+    padding-left: 403px;
+    padding-top: 184px;
+    box-sizing: border-box;
+}
+.header-h1 {
+    font-size: 64px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.header-last-text {
+    display: flex;
+}
+.header-par-opis {
+    font-size: 24px;
+    line-height: 140%;
+    color: #ffffff;
+    max-width: 533px;
+}
+.header-mini-par {
+    font-size: 16px;
+    line-height: 135%;
+    color: #ffffff;
+}
+.header-image-text {
+    padding-bottom: 2px;
+    padding-left: 10px;
 }
